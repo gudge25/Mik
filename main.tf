@@ -5,3 +5,10 @@ module "router0" {
     routeros = routeros.router0
   }
 }
+
+module "router1" {
+  source = "./common"
+  providers = {
+    routeros = routeros.router1
+  }
+}
