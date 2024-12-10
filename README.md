@@ -58,3 +58,4 @@ terraform apply
 3. Use variables for sensitive data
 4. Keep state files secure and consider using remote state storage
 5. Review plans before applying changes
+6. Use Terraform modules for reusable configurations
